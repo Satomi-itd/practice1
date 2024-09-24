@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>MiniShopping-ContactUs</title>
+
+  <style>
+    .times-new-roman {
+      font-family: "Times New Roman", Times, serif;
+    }
+
+	textarea {
+      width: 100%;
+      height: 200px;
+    }
+
+	 #Submit {
+        width: 150px;
+        height: 50px; 
+        font-size: 25px; 
+		}
+  </style>
+  <script language="javascript">
+    window.onload = function() {
+      var submitButton = document.getElementById("Submit");
+      submitButton.style.float = "right";
+	  submitButton.addEventListener("click", function() {
+        alert("You sent form! Thank you for your Email!");
+	  });
+    };
+  </script>
+ </head>
+ <body bgcolor="Ivory">
+  
+    <div style="display: inline-block; border: 5px double rgb(99, 104, 115); width: 10%;  margin-right: 10px;">
+    <embed id="Home" type="image/jpg" src="https://th.bing.com/th/id/R.a7255d739e4bb6c44715a9ece0596d6b?rik=rRcgfgalQciYbA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-RE_LtIhPBps%2fVCOJt4M6ZEI%2fAAAAAAAAm1k%2fWGvtkInZP9s%2fs800%2fhouse_reform.png&ehk=2x9Th4UJfqJ7oCwpJdGJ3nsLv7VNQxcrsidFDEMpk9w%3d&risl=&pid=ImgRaw&r=0" width="100" height="100" onmouseover="HomeNormal()">
+	<center><a href="file:///C:/Users/satoh/Documents/MiniShoppingCart.html">Home</a></center>
+</div>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+    <div style="display: inline-block; border: 5px double rgb(99, 104, 115); width: 10%; margin-right: 10px;">
+    <embed id="AboutUs" type="image/jpg" src="https://th.bing.com/th/id/R.4253fe5c4acfc2ccff586dd69b8cab7a?rik=56Wh60EmXXHXcA&riu=http%3a%2f%2f1.bp.blogspot.com%2f-XQMYp8DGIXk%2fVhHgHaDSt2I%2fAAAAAAAAy2c%2fntB5oCc30Es%2fs800%2fdog_family.png&ehk=J58k3pvBUl81vwuGwINC%2beot4B7hxgDOWhPiYmIaiBQ%3d&risl=&pid=ImgRaw&r=0" width="100" height="100" onmouseover="AboutNormal()">
+	<center><a href="file:///C:/Users/satoh/Documents/MiniShopping-AboutUs.html">AboutUs</a></center>
+</div>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+    <div style="display: inline-block; border: 5px double rgb(99, 104, 115); width: 10%;  margin-right: 10px;">
+    <embed id="ContactUs" type="image/jpg" src="https://tsukatte.com/wp-content/uploads/2019/05/mail.png" width="100" height="100" onmouseover="ContactNormal()">
+	<center><a href="file:///C:/Users/satoh/Documents/MiniShopping-ContactUs.html">ContactUs</a></center>
+</div>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+
+    <div style="display: inline-block; border: 5px double rgb(99, 104, 115); width: 10%; ">
+    <embed id="ShopOnline" type="image/jpg" src="https://3.bp.blogspot.com/-P6ZK7_CU1Is/UmuA4EO_8nI/AAAAAAAAZhc/4XWFy6_YTMA/s800/shopping_cart.png" width="100" height="100" onmouseover="ShopNormal()">
+	<center><a href="file:///C:/Users/satoh/Documents/MiniShopping-ShopOnline.html">ShopOnline</a></center>
+</div>
+
+<br><br><br>
+<div class="times-new-roman">
+<H1>ContactUS</H1><br>
+<font size="6">Costomer sending form</font> <br>
+<form>
+<label for="EmailID">Email ID:</label><br>
+<input type="text" id="EmailID" name="EmailID"><br>
+<label for="subject">Subject:</label><br>
+<input type="text" id="subject" name="EmailID"><br>
+<label for="CC">CC:</label><br>
+<input type="text" id="CC" name="CC"><br>
+<label for="BCC">BCC:</label><br>
+<input type="text" id="BCC" name="BCC"><br><br><br>
+
+
+<textarea type="text" id="BodyEmail" name="BodyEmail" placeholder="Message">
+</textarea><br><br>
+<button id="Submit" type="Submit" size="11">Send!</button>
+
+
+
+
+
+
+
+
+
+
+  
+ </body>
+</html>
